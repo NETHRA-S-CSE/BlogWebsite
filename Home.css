@@ -1,0 +1,19 @@
+body{
+    margin: auto ;
+}
+.logo{
+    text-align: left;
+
+}
+.navbar{
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgba(64, 178, 203, 0.743);
+    padding-right: 5%;
+}
+.navName{
+    font-size: 25px;
+}
