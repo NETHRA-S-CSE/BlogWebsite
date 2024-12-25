@@ -17,21 +17,27 @@
             <li class="navName">Contact us</li>
         </ul>
     </nav>
-    <form action="">
+    <form action="Reader.html">
     <div class="banner">    <!--Imange to be appeared on the top-->
         <input type="file" accept="image/*" id="banner-upload" hidden>
-        <label for="banner-upload" class="banner-upload-btn"></label>
+        <label for="banner-upload" class="banner-upload-btn">Upload Banner</label>
     </div>
     <div class="blog">  <!--User input for the blog-->
-        <textarea type="text" class="title" placeholder="Blog Heading"></textarea>
-        <textarea type="text" class="article" placeholder="Write your Blog here..."></textarea>
+        <textarea type="text" class="title" placeholder="Blog Heading" id="blog-head"></textarea>
+        <textarea type="text" class="article" placeholder=" Write your Blog here..." id="blogcontent"></textarea>
     </div>
     <div class="blog-image-options">
-        <button class="publish-btn">Publish</button> <!--Redirect to the reader page-->
+        <button type="submit" class="publish-btn" id="publish-btn">Publish</button> <!--Redirect to the reader page-->
 
         <input type="file" accept="image/*" id="image-upload" hidden>
         <label for="image-upload" class="btn"  >Upload Image</label>
     </div>
 </form>
+<footer class="footer">
+    <p> Team Name : Synergy squad </p>
+    <p> Team Members : Nethra.S, Priyadharshini.J, Pavithra.M</p>
+    <p> Copyright : Viblogue &copy;</p>
+ </footer>
+<script src="Editor.js"></script>
 </body>
 </html>
