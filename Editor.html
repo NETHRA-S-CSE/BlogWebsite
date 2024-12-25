@@ -7,22 +7,31 @@
     <link rel="stylesheet" href="Editor.css">
 </head>
 <body>
-    <div class="banner">
-        
+    <nav>
+        <ul class="navbar"> <!--Navigtion bar for navigating to other pages-->
+            <li class="logo"><h2>Viblogue</h2></li>
+            <li class="navName">Home</li>
+            <li class="navName">Blogs</li>
+            <li class="navName">Create</li>
+            <li class="navName">About</li>
+            <li class="navName">Contact us</li>
+        </ul>
+    </nav>
+    <form action="">
+    <div class="banner">    <!--Imange to be appeared on the top-->
         <input type="file" accept="image/*" id="banner-upload" hidden>
-        <label for="banner-upload" class="banner-upload-btn"><img src="img.png"  alt="Upload the Banner Image"></label>
-
+        <label for="banner-upload" class="banner-upload-btn"></label>
     </div>
-    <div class="blog">
+    <div class="blog">  <!--User input for the blog-->
         <textarea type="text" class="title" placeholder="Blog Heading"></textarea>
         <textarea type="text" class="article" placeholder="Write your Blog here..."></textarea>
     </div>
     <div class="blog-image-options">
-        <button class="publish-btn">Publish</button>
+        <button class="publish-btn">Publish</button> <!--Redirect to the reader page-->
+
         <input type="file" accept="image/*" id="image-upload" hidden>
-        <label for="image-upload" class="publish-btn">Upload Image</label>
-
+        <label for="image-upload" class="btn"  >Upload Image</label>
     </div>
-
+</form>
 </body>
 </html>
