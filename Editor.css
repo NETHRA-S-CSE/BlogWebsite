@@ -109,9 +109,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 .btn{
-   
+    
     cursor: pointer;
     background-color: #0000006f;
     font-family: "Times New Roman", Times, serif;
@@ -233,8 +234,8 @@ body{
     border-radius:4px;
 }
 .postb1{
-    background-color: #004b46;
-    color: #fff;
+    background-color: #ffffff;
+    color: #000000;
     cursor:pointer;
     transition: 0.3s;
 }
@@ -254,4 +255,8 @@ body{
      font-style: normal;
      font-variant: normal;
      text-transform: none;
+}
+.comment-list{
+    background-color: #00000092;
+   
 }
