@@ -11,6 +11,12 @@ body{
     text-align: left;
 
 }
+.logo:hover{
+    text-shadow: 0 0 25px white, 0 0 50px white;
+    transform: scale(1.1);           
+             
+}
+
 .navbar{
     list-style: none;
     font-size: 20px;
@@ -22,6 +28,9 @@ body{
 }
 .navName{
     font-size: 25px;
+}
+.navName:hover{
+    text-shadow: 0 0 25px white;
 }
 
 .banner{
@@ -52,11 +61,13 @@ body{
 .blog{
     width: 70vw;
     min-width: 400px;
-    height: 100px;
+    height: fit-content;
     display: block;
     margin: auto;
     padding: 50px 0;
     padding-bottom: 80px;
+    color: white;
+   
     
 
 }
@@ -68,7 +79,7 @@ body{
     outline: none;
     font-size: 50px;
     font-weight: 600;
-    color: black;
+    color: rgb(255, 255, 255);
     resize: none;
     border: none;
     padding: 10px;
@@ -83,6 +94,7 @@ body{
     outline: none;
    min-height:200px ;
    margin-bottom: 100px;
+   color: white;
    background-color:#004b46
   
 }
@@ -141,11 +153,105 @@ body{
 }
 .footer{
     
+    position: relative;
+    bottom: 0;
     background-color: black;
     font-size: 20px;
-    padding: 5%;
+    padding:5%;
+
  
 }
 #blogcontent{
     font-size: large;
+    width:50%;
+    flex-direction: column;
+}
+.navName{
+     /* font */
+     font-family: "Times New Roman", Times, serif;
+     font-size: 25px;
+     letter-spacing: 2px;
+     word-spacing: 2px;
+     color: #ffffff;
+     font-weight: normal;
+     text-decoration: none;
+     font-style: normal;
+     font-variant: normal;
+     text-transform: none;
+
+}
+#readerBlog{
+    width: 90%;
+    min-width: 400px;
+    height: fit-content;
+    display: block;
+    margin: auto;
+    padding: 50px 0;
+    padding-bottom: 80px;
+  
+}
+.like-section{
+  margin-left: 14.7%;
+  
+}
+
+.like-btn{
+    background-color: #ffffff;
+    padding: 0.67%;
+    font: bolder;
+    font-size: 14px;
+    
+     /* font */
+     font-family: "Times New Roman", Times, serif;
+     font-size: 14px;
+     letter-spacing: 2px;
+     word-spacing: 2px;
+     color: #000000;
+     font-weight: bold;
+     text-decoration: none;
+     font-style: normal;
+     font-variant: normal;
+     text-transform: none;
+     
+     border-radius:15%;
+}
+.comment-form{
+    border-radius: 10px;
+    background-color: #0087805f;
+    margin: 2.5%;
+    padding:1.5%;
+  margin-right: 10%;
+  margin-left: 14.5%;
+    flex-direction: column;
+    display: flex;
+    gap:10px;
+}
+#comment-input, .postb1{
+    width:100%;
+    padding:8px;
+    border:1px solid #ccc;
+    border-radius:4px;
+}
+.postb1{
+    background-color: #004b46;
+    color: #fff;
+    cursor:pointer;
+    transition: 0.3s;
+}
+.postb1:hover{
+    background-color: #000000;
+    color:white;
+}
+.Rh3{
+     /* font */
+     font-family: "Times New Roman", Times, serif;
+     font-size: 30px;
+     letter-spacing: 2px;
+     word-spacing: 2px;
+     color: #ffffff;
+     font-weight: bold;
+     text-decoration: none;
+     font-style: normal;
+     font-variant: normal;
+     text-transform: none;
 }
