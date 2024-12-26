@@ -1,0 +1,120 @@
+.navbar{
+    /* align */
+   list-style: none;
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+
+   background-color:#004b46;
+   /* padding */
+   padding-right:5%;
+   padding-left:5%;
+
+   /* font */
+   font-family: "Times New Roman", Times, serif;
+   font-size: 20px;
+   letter-spacing: 2px;
+   word-spacing: 2px;
+   color: #ffffff;
+   font-weight: normal;
+   text-decoration: none;
+   font-style: normal;
+   font-variant: normal;
+   text-transform: none;
+ 
+   
+
+   
+}
+.navName{
+    /* font */
+     font-family: "Times New Roman", Times, serif;
+     font-size: 25px;
+     letter-spacing: 2px;
+     word-spacing: 2px;
+     color: #ffffff;
+     font-weight: normal;
+     text-decoration: none;
+     font-style: normal;
+     font-variant: normal;
+     text-transform: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:black;
+    color: black;
+}
+
+header {
+    background-color:rgb(9, 63, 49) ;
+    color:white;
+    padding: 10px;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color:rgb(9, 63, 49);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px black;
+}
+
+h1, h2 {
+    color:black;
+}
+
+p {
+    line-height: 1.6;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    padding-left: 20px;
+    position: relative;
+}
+
+ul li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color:maroon;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+
+form button {
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color :red;
+}
