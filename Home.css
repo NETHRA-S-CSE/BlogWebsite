@@ -9,8 +9,11 @@ body{
 }
 .logo{
     text-align: left;
-
 }
+.logo:hover{
+    text-shadow: 0 0 25px white;
+}
+
 .navbar{
      /* align */
     list-style: none;
@@ -53,6 +56,9 @@ body{
     text-transform: none;
 
 }
+.navName:hover{
+    text-shadow: 0 0 25px white;
+}
 .h2c1{
    
     /* font */
@@ -89,7 +95,7 @@ body{
 font-size: 19px;
 }
 .bc1{
-    background-color: #98ff98ad;
+    background-color: #ffffff;
     padding: 1%;
     margin: 25px;
     font: bolder;
@@ -100,7 +106,7 @@ font-size: 19px;
      font-size: 14px;
      letter-spacing: 2px;
      word-spacing: 2px;
-     color: #ffffff;
+     color: #000000;
      font-weight: bold;
      text-decoration: none;
      font-style: normal;
@@ -108,6 +114,13 @@ font-size: 19px;
      text-transform: none;
      
      border-radius:15%;
+}
+.bc1:hover{
+background-color: #000000;
+
+transition:0.3s,ease;
+border-color: rgb(255, 255, 255);
+
 }
 .container2{
     background-color: #00878024;
@@ -147,8 +160,11 @@ font-size: 19px;
 }
 .footer{
     
+    position: relative;
+    bottom: 0;
     background-color: black;
     font-size: 20px;
-    padding: 5%;
+    padding:5%;
+
  
 }
