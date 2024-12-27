@@ -1,5 +1,19 @@
+
+body{
+    background: linear-gradient(90deg, #001514 , rgb(0, 57, 56) 100%, #4b0069 100%);
+}
+
+
+
+.logo:hover{
+    text-shadow: 0 0 25px white;
+}
+
+
+
+
 .navbar{
-    /* align */
+   /* align */
    list-style: none;
    display:flex;
    justify-content: space-between;
@@ -21,30 +35,41 @@
    font-style: normal;
    font-variant: normal;
    text-transform: none;
- 
+}
+.header{
+background-color:#004b46ab;
+}
    
 
-   
+.linkedin{
+    color: white;
 }
+.linkedin:hover{
+    color: rgb(251, 251, 251);
+    background-color: black;
+}
+   
+
 .navName{
     /* font */
-     font-family: "Times New Roman", Times, serif;
-     font-size: 25px;
-     letter-spacing: 2px;
-     word-spacing: 2px;
-     color: #ffffff;
-     font-weight: normal;
-     text-decoration: none;
-     font-style: normal;
-     font-variant: normal;
-     text-transform: none;
+    /* font */
+    font-family: "Times New Roman", Times, serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #ffffff;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
 }
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color:black;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 header {
@@ -58,13 +83,13 @@ header {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color:rgb(9, 63, 49);
+    background-color: #00878024;
     border-radius: 8px;
     box-shadow: 0 2px 4px black;
 }
 
 h1, h2 {
-    color:black;
+    color:rgb(255, 255, 255);
 }
 
 p {
@@ -74,6 +99,7 @@ p {
 ul {
     list-style: none;
     padding: 0;
+    color: white;
 }
 
 ul li {
@@ -117,4 +143,12 @@ form button {
 
 form button:hover {
     background-color :red;
+}
+
+.logo{
+    text-align: left;
+    color: white;
+}
+h3,h4{
+    color: rgb(255, 0, 0);
 }
